@@ -1,0 +1,333 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    background-color: #f1f1f1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header {
+    width: 100%;
+    height: 54px;
+}
+div.lupa{
+    float: right;
+}
+div.logo{
+    float: left;
+    height: 56px;
+}
+section.container{
+    width: 100%;
+    height: 638px;
+    background-image: url(imagens/london.jpg);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.navegacao{
+    height: 256px;
+    width: 886px;
+    background-color: white;
+}
+.navegacao > h1{
+    margin-top: 32px;
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-weight: 600 ;
+}
+.botoes{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 40px;
+}
+.botoes > .ebotoes{
+    height: 40px;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+}
+.botoes>.ebotoes:hover{
+    background-color: orangered;
+    transition-duration: .5s;
+}
+.escritas{
+    margin-top: 10px;
+    display:flex;
+    font-weight: 600;
+}
+.escritas>p{
+    margin-left: 10px;
+}
+.pesquisa{
+    display: flex;
+}
+.pesquisa > input{
+    margin-left: 10px;
+    height: 30px;
+    width: 45%;
+    font-size: 1em;
+
+}
+.search{
+    width: 18%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    background-color: #616161;
+}
+.seçao1{
+    height: 544px;
+    max-width: 1135px;
+    padding: 20px;
+}
+.textos{
+    width: 100%;
+    height: 80px;
+}
+.textos > h1{
+    margin-bottom: 20px;
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 464px;
+    align-items: center;
+}
+.op > a:hover{
+    opacity: 0.5;
+}
+.imagens .gd{
+    height: 464px;
+    width: 557.5px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.posicaotxt{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+.pq{
+    height: 464px;
+    width: 557.5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.pq .impq{
+    height: 222px;
+    width: 268.75px;
+    margin-bottom: 17px;   color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.country{
+    background-color: rgb(255, 255, 255);
+    width: 557.5px;
+    height: 464px;
+}
+.seçao2{
+    height: 544px;
+    max-width: 1135px;
+    padding: 20px;
+}
+.country{
+    margin-bottom: 20px;
+}
+.country img{
+    width: 100%;
+    height: 275px;
+}
+.country h1{
+    padding: 5px;
+    font-weight: 500;
+}
+.country p{
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.country a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.country a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.light{
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: gray;
+}
+.seçao3{
+    height: 256px;
+    max-width: 1135px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.subscription{
+    width: 100%;
+    height: 256px;
+    background-color: #606060;
+}
+.subscription > h1{
+    color: white;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+.subscription > p{
+    color: white;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-weight: 800;
+    font-size: small;
+}
+.email{
+    color: white;
+    padding-left: 15px;
+    
+}
+.email > input{
+    width: 95%;
+    height: 35px;
+}
+.email > button{
+
+    height: 35px;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    margin-top: 10px;
+}
+.seçao4{
+    height: 480px;
+    max-width: 1135px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacts{
+    width: 100%;
+    height: 200px;
+}
+.contacts h1{
+    padding-bottom: 30px;
+}
+.contacts p i{
+    margin-right: 20px;
+}
+.contacts p{
+    padding-bottom: 10px;
+}
+.contacts .morespace{
+    padding-bottom: 40px;
+}
+.receber{
+    width: 100%;
+}
+.receber input{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 40px;
+}
+.receber button{
+    color: white;
+    background-color: black;
+    height: 48px;
+    width: 161px;
+}
+footer{
+    max-width: 1135px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+
+}
+footer p{
+    font-weight: 700;
+}
+footer i{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.sp{
+    margin-top: 40px;
+    color: gray;
+}
+@media (max-width: 1172px){
+    .gd{
+        margin-bottom: 17px;
+    }
+    .seçao1{
+        height: 1000px;
+    }
+    .seçao2{
+        height: 1050px;
+    }
+
+
+
+}
+@media (max-width: 593.60px){
+    .imagens .gd{
+        height: 350px;
+        width: 500px;
+    }
+    .imagens .impq{
+        height: 350px;
+        width: 500px;
+    }
+    .pq{
+        width: 100%;
+    }
+    .seçao1{
+        height: 1900px;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .navegacao{
+        height: 100%;
+        width: 100%;
+    }
+    section.container{
+        height: 256px;
+    }
+    .imagens .gd{
+        height: 300px;
+        width: 450px;
+    }
+    .imagens .impq{
+        height: 300px;
+        width: 450px;
+    }
+    .seçao1{
+        height: 1700px;
+    }
+}
