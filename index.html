@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="imagens/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
     <script src="https://kit.fontawesome.com/845fd8b5bb.js" crossorigin="anonymous"></script>
+    <script src="scrip.js" defer></script>
 
 </head>
 <body>
@@ -23,24 +24,24 @@
         <section class="container">
             <nav class="navegacao">
                <div class="botoes">
-                   <a href="" class="ebotoes">
+                   <div class="ebotoes" id="flight">
                        <p>Flight</p>
-                   </a>
-                   <a href="" class="ebotoes">
+                   </div>
+                   <div class="ebotoes" id="rental">
                        <p>Rental</p>
-                   </a>
-                   <a href="" class="ebotoes">
+                   </div>
+                   <div class="ebotoes" id="hotel">
                        <p>Hotel</p>
-                   </a>
+                   </div>
                </div>
                <h1>Travel the world with us</h1>
                <div class="escritas">
-                   <p>From</p>
-                   <p>To</p>
+                   <p id="mod">From</p>
+                   <p id="hidetxt">To</p>
                </div>
                <div class="pesquisa">
-                   <input type="text" placeholder="Departing from">
-                   <input type="text" style="margin-left: 30px;" placeholder="Arriving at">
+                   <input type="text" placeholder="Departing from" id="modinput">
+                   <input type="text" style="margin-left: 30px;" placeholder="Arriving at" id="hideinput">
                </div>
                <button class="search">
                  Search
